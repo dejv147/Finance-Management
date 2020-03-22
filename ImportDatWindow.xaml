@@ -1,0 +1,14 @@
+﻿<Window x:Class="Sprava_financi.ImportDatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sprava_financi"
+        mc:Ignorable="d" 
+        Title="Import dat" Height="300" Width="500" Background="LightBlue"
+        WindowStartupLocation="CenterScreen" Icon="Disketa_e_sipkou.ico">
+    <Grid>
+        <Button Name="PridatNoveZaznamyButton" Content="Přidat nové záznamy" Width="400" Height="80" FontSize="36" Margin="0,0,0,120" Foreground="DarkBlue" Background="Pink" Click="PridatNoveZaznamyButton_Click"/>
+        <Button Name="AktualizovatZaznamyButton" Content="Přepsat data novými záznamy" Width="400" Height="80" FontSize="28" Margin="0,120,0,0" Foreground="DarkBlue" Background="DeepPink" Click="AktualizovatZaznamyButton_Click"/>
+    </Grid>
+</Window>
